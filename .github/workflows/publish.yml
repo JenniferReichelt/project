@@ -10,7 +10,8 @@ name: Render and publish
 jobs:
   docker:
     runs-on: ubuntu-latest
-    container: ghcr.io/jenniferreichelt/temp343987/:main
+    container: ghcr.io/jenniferreichelt/project/:main
+    
     steps:
       -
         name: Checkout repository
